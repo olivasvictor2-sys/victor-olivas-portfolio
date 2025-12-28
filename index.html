@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Victor Fabian Olivas Perez | Engineering Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #020617;
+      --panel: #020617;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      padding: 7rem 10% 5rem;
+      max-width: 1400px;
+      margin: auto;
+    }
+    header h1 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    header p {
+      max-width: 760px;
+      font-size: 1.15rem;
+      color: var(--muted);
+    }
+    section {
+      padding: 4.5rem 10%;
+      max-width: 1400px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 1.9rem;
+      margin-bottom: 2rem;
+      font-weight: 600;
+    }
+    .divider {
+      height: 1px;
+      background: #0f172a;
+      margin: 4rem 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+    }
+    .project {
+      display: grid;
+      gap: 1.2rem;
+    }
+    .project img {
+      width: 100%;
+      border-radius: 14px;
+      background: #020617;
+    }
+    .project h3 {
+      margin: 0.5rem 0 0.3rem;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .project p {
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+    .experience {
+      display: grid;
+      gap: 1.5rem;
+      max-width: 900px;
+    }
+    .experience h3 {
+      margin-bottom: 0.2rem;
+      font-weight: 600;
+    }
+    footer {
+      padding: 3.5rem 10% 4rem;
+      text-align: center;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Victor Fabian Olivas Perez</h1>
+  <p>I turn complex engineering challenges into innovative, efficient, and practical solutions. My work bridges mechanical and aerospace engineering with automation, controls, and advanced manufacturing.</p>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>Mechanical and Aerospace Engineer with a Bachelor of Science from New Mexico State University. My background spans industrial automation, CNC machining, PLC programming, and system optimization in high-volume manufacturing environments. I approach engineering as both a technical and creative discipline—focused on reliability, efficiency, and elegant problem-solving.</p>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <h2>Experience</h2>
+  <div class="experience">
+    <div>
+      <h3>Controls Engineer – Ford Motor Company</h3>
+      <p>Refined automation processes and performed integration and system testing for machining operations, achieving a 10% reduction in manufacturing cycle time. Developed and debugged CNC and PLC programs for Specht 500 machines using Bosch Rexroth IndraWorks, while collaborating with cross‑functional teams to implement quality control improvements.</p>
+    </div>
+    <div>
+      <h3>Mechanical Engineer Intern – Ford Motor Company</h3>
+      <p>Supported mechanical design, testing, and efficiency analysis within a large‑scale manufacturing environment, gaining hands‑on exposure to production systems and real‑world engineering constraints.</p>
+    </div>
+    <div>
+      <h3>Laboratory Technician – Soil Analysis</h3>
+      <p>Maintained laboratory and field equipment, executed precise testing procedures, and supported sustainable agricultural research through accurate data collection and documentation.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <h2>Selected Projects</h2>
+  <div class="grid">
+
+    <div class="project">
+      <img src="images/reinhart-conveyor.jpg" alt="Reinhart Conveyor Pallet Sensor">
+      <h3>Reinhart Conveyor Pallet Sensor</h3>
+      <p>Resolved recurring pallet detection failures caused by reflections, liquid contamination, and poor sensor positioning. Implemented mechanical and positional modifications that restored conveyor reliability and recovered lost production time.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/automated-inspection.jpg" alt="Automated Inspection System">
+      <h3>Automated Inspection System</h3>
+      <p>Designed and implemented a QR‑based automated inspection station for 6.7L diesel engine blocks. The system eliminated manual data entry, improved operator efficiency, and enabled real‑time quality tracking through PLC integration.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/op60-flatness.jpg" alt="OP60 Flatness Inspection">
+      <h3>OP60 Flatness Inspection</h3>
+      <p>Diagnosed micrometer‑level flatness defects caused by improper clamping and sensor degradation. Replaced aging sensors and introduced an additional cleaning step, eliminating downstream assembly issues.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/telescoping-boom.jpg" alt="Telescoping Boom Truss">
+      <h3>Telescoping Boom Truss</h3>
+      <p>Led material selection, structural analysis, fatigue evaluation, and CAD modeling for a client‑driven mechanical design project. The final design met strict load, lifetime, and cost constraints.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/glider-design.jpg" alt="Glider Design">
+      <h3>Glider Structural Design</h3>
+      <p>Designed and analyzed a complete glider system, including airfoil selection, structural analysis, and CAD modeling. Evaluated over 20 airfoils and validated performance through simulation and hand calculations.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/rollercoaster.jpg" alt="Roller Coaster Prototype">
+      <h3>Roller Coaster Prototype</h3>
+      <p>Early‑career dynamics project involving full CAD design and force analysis of a roller coaster system. Translated theoretical dynamics into a functional physical model.</p>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <h2>Skills</h2>
+  <p>Mechanical & Aerospace Engineering · Industrial Automation · PLC Programming · CNC Machining · SolidWorks · Siemens NX · CATIA V5 · Bosch Rexroth IndraWorks · MATLAB · C++ · Control Systems · Data Analysis</p>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:olivasvictor2@gmail.com">olivasvictor2@gmail.com</a><br>
+  LinkedIn: <em>Add your LinkedIn URL</em></p>
+  <p>Reach out to collaborate on engineering projects, innovative solutions, or creative content initiatives.</p>
+</section>
+
+<footer>
+  <p>© 2025 Victor Fabian Olivas Perez · Engineering Portfolio</p>
+</footer>
+
+</body>
+</html>
